@@ -1,0 +1,27 @@
+.dashboard-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 4px;
+}
+
+.dashboard-subtitle {
+  color: #64748b;
+  font-size: 0.95rem;
+  margin-bottom: 28px;
+}
+
+.loading,
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  font-size: 1.1rem;
+}
+
+.error {
+  color: #ef4444;
+  text-align: center;
+  padding: 20px;
+}
