@@ -1,9 +1,9 @@
 INSERT INTO developers (name, email, team) VALUES
-('Ana García', 'ana.garcia@dev.com', 'Backend'),
-('Luis Martínez', 'luis.martinez@dev.com', 'Frontend'),
-('María López', 'maria.lopez@dev.com', 'Backend'),
-('Carlos Rodríguez', 'carlos.rodriguez@dev.com', 'DevOps'),
-('Sofía Hernández', 'sofia.hernandez@dev.com', 'Frontend');
+('Ana Garcia', 'ana.garcia@dev.com', 'Backend'),
+('Luis Martinez', 'luis.martinez@dev.com', 'Frontend'),
+('Maria Lopez', 'maria.lopez@dev.com', 'Backend'),
+('Carlos Rodriguez', 'carlos.rodriguez@dev.com', 'DevOps'),
+('Sofia Hernandez', 'sofia.hernandez@dev.com', 'Frontend');
 
 INSERT INTO metrics (developer_id, date, commits, tasks_completed, incidents_resolved, lines_added, lines_removed) VALUES
 (1, '2026-01-15', 12, 5, 3, 450, 120),

@@ -4,5 +4,5 @@ export default function Navbar() {
       <span className="navbar-brand">DevProductivity Dashboard</span>
       <span className="navbar-subtitle">Tecnologico de Monterrey</span>
     </nav>
-  )
+  );
 }

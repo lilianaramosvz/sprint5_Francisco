@@ -1,14 +1,14 @@
 :root {
-  --primary:      #4f46e5;
-  --success:      #10b981;
-  --warning:      #f59e0b;
-  --danger:       #ef4444;
-  --purple:       #8b5cf6;
-  --bg:           #f1f5f9;
-  --surface:      #ffffff;
-  --text:         #1e293b;
-  --text-muted:   #64748b;
-  --border:       #e2e8f0;
+  --primary: #4f46e5;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --purple: #8b5cf6;
+  --bg: #f1f5f9;
+  --surface: #ffffff;
+  --text: #1e293b;
+  --text-muted: #64748b;
+  --border: #e2e8f0;
 }
 
 * {
@@ -18,7 +18,7 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: var(--bg);
   color: var(--text);
 }
@@ -72,13 +72,15 @@ body {
   border-radius: 12px;
   padding: 20px 16px;
   border-top: 4px solid transparent;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.07);
-  transition: transform 0.15s, box-shadow 0.15s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
+  transition:
+    transform 0.15s,
+    box-shadow 0.15s;
 }
 
 .metric-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 14px rgba(0,0,0,0.10);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
 
 .metric-value {
@@ -112,7 +114,7 @@ body {
   background: var(--surface);
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
 }
 
 .chart-title {
@@ -127,7 +129,7 @@ body {
   background: var(--surface);
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
   margin-bottom: 24px;
   overflow-x: auto;
 }
@@ -163,7 +165,9 @@ body {
   background: var(--bg);
 }
 
-.dev-name { font-weight: 600; }
+.dev-name {
+  font-weight: 600;
+}
 
 .team-badge {
   display: inline-block;
@@ -173,9 +177,24 @@ body {
   font-weight: 700;
 }
 
-.team-backend  { background: #dbeafe; color: #1d4ed8; }
-.team-frontend { background: #d1fae5; color: #065f46; }
-.team-devops   { background: #fef3c7; color: #92400e; }
+.team-backend {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+.team-frontend {
+  background: #d1fae5;
+  color: #065f46;
+}
+.team-devops {
+  background: #fef3c7;
+  color: #92400e;
+}
 
-.lines-added   { color: var(--success); font-weight: 600; }
-.lines-removed { color: var(--danger);  font-weight: 600; }
+.lines-added {
+  color: var(--success);
+  font-weight: 600;
+}
+.lines-removed {
+  color: var(--danger);
+  font-weight: 600;
+}

@@ -26,12 +26,16 @@ export default function DeveloperTable({ data }) {
               <td>{dev.totalCommits}</td>
               <td>{dev.totalTasks}</td>
               <td>{dev.totalIncidents}</td>
-              <td className="lines-added">+{dev.totalLinesAdded?.toLocaleString()}</td>
-              <td className="lines-removed">-{dev.totalLinesRemoved?.toLocaleString()}</td>
+              <td className="lines-added">
+                +{dev.totalLinesAdded?.toLocaleString()}
+              </td>
+              <td className="lines-removed">
+                -{dev.totalLinesRemoved?.toLocaleString()}
+              </td>
             </tr>
           ))}
         </tbody>
       </table>
     </div>
-  )
+  );
 }
